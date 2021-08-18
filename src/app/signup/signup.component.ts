@@ -7,14 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SignupComponent implements OnInit {
   successMessage: string | undefined;
+  title = 'signup';
 
   constructor() { }
 
   ngOnInit(): void {
-    this.register();
+    // this.register();
   }
   register(){
-    console.log("Hello Message");
+    // console.log("Hello Message");
     // console.log(this.register)
     // this.successMessage = "Successfully Registered..."
   }
